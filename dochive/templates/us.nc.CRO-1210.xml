@@ -1,0 +1,225 @@
+<?xml version="1.0" ?> 
+<!DOCTYPE template [
+  <!ELEMENT condition        (action,x,y,height,width,suffix,required)>
+  <!ELEMENT section          (x,y,height,width,suffix,type)>
+  <!ELEMENT output           (line)>
+  <!ELEMENT action           (#PCDATA)>
+  <!ELEMENT x                (#PCDATA)>
+  <!ELEMENT y                (#PCDATA)>
+  <!ELEMENT width            (#PCDATA)>
+  <!ELEMENT height           (#PCDATA)>
+  <!ELEMENT suffix           (#PCDATA)>
+  <!ELEMENT type             (#PCDATA)>
+  <!ELEMENT required         (#PCDATA)>
+  <!ELEMENT line     	     (#PCDATA)>
+]>
+<template title="US-NC-CRO-1210">
+
+  <condition>
+    <action>1</action>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>80</height>
+    <suffix>cfi1</suffix>
+    <required>Contributions from Individuals</required>
+  </condition>
+  <condition>
+    <action>1</action>
+    <x>14</x>
+    <y>2907</y>
+    <width>200</width>
+    <height>42</height>
+    <suffix>cfi2</suffix>
+    <required>CRO-1210#CR0-1210#CRO-121O</required>
+  </condition>
+  
+  <section>
+    <x>29</x>
+    <y>205</y>
+    <width>1593</width>
+    <height>91</height>
+    <suffix>01</suffix>
+    <type>1</type>
+  </section> 
+  <section>
+    <x>1636</x>
+    <y>207</y>
+    <width>588</width>
+    <height>92</height>
+    <suffix>02</suffix>
+    <type>1</type>
+  </section> 
+  
+  <section>
+    <x>23</x>
+    <y>477</y>
+    <width>950</width>
+    <height>298</height>
+    <suffix>03a</suffix>
+    <type>1</type>
+  </section> 
+  <section>
+    <x>988</x>
+    <y>425</y>
+    <width>633</width>
+    <height>95</height>
+    <suffix>03b</suffix>
+    <type>1</type>
+  </section> 
+  <section>
+    <x>984</x>
+    <y>581</y>
+    <width>633</width>
+    <height>195</height>
+    <suffix>03c</suffix>
+    <type>1</type>
+  </section> 
+  <section>
+    <x>1640</x>
+    <y>431</y>
+    <width>583</width>
+    <height>187</height>
+    <suffix>03d</suffix>
+    <type>1</type>
+  </section> 
+  <section>
+    <x>1637</x>
+    <y>689</y>
+    <width>583</width>
+    <height>86</height>
+    <suffix>03e</suffix>
+    <type>1</type>
+  </section>   
+  <section>
+    <x>204</x>
+    <y>844</y>
+    <width>283</width>
+    <height>72</height>
+    <suffix>03g1</suffix>
+    <type>1</type>
+  </section> 
+  <section>
+    <x>204</x>
+    <y>932</y>
+    <width>283</width>
+    <height>72</height>
+    <suffix>03g2</suffix>
+    <type>1</type>
+  </section> 
+  <section>
+    <x>204</x>
+    <y>1021</y>
+    <width>283</width>
+    <height>72</height>
+    <suffix>03g3</suffix>
+    <type>1</type>
+  </section> 
+  <section>
+    <x>504</x>
+    <y>840</y>
+    <width>350</width>
+    <height>77</height>
+    <suffix>03h1</suffix>
+    <type>1</type>
+  </section> 
+  <section>
+    <x>504</x>
+    <y>928</y>
+    <width>350</width>
+    <height>77</height>
+    <suffix>03h2</suffix>
+    <type>1</type>
+  </section> 
+  <section>
+    <x>504</x>
+    <y>1017</y>
+    <width>350</width>
+    <height>77</height>
+    <suffix>03h3</suffix>
+    <type>1</type>
+  </section> 
+  <section>
+    <x>871</x>
+    <y>843</y>
+    <width>470</width>
+    <height>77</height>
+    <suffix>03i1</suffix>
+    <type>1</type>
+  </section> 
+  <section>
+    <x>871</x>
+    <y>935</y>
+    <width>470</width>
+    <height>77</height>
+    <suffix>03i2</suffix>
+    <type>1</type>
+  </section> 
+  <section>
+    <x>871</x>
+    <y>1025</y>
+    <width>470</width>
+    <height>77</height>
+    <suffix>03i3</suffix>
+    <type>1</type>
+  </section> 
+  <section>
+    <x>1360</x>
+    <y>843</y>
+    <width>465</width>
+    <height>70</height>
+    <suffix>03j1</suffix>
+    <type>1</type>
+  </section> 
+  <section>
+    <x>1360</x>
+    <y>935</y>
+    <width>465</width>
+    <height>70</height>
+    <suffix>03j2</suffix>
+    <type>1</type>
+  </section> 
+  <section>
+    <x>1360</x>
+    <y>1025</y>
+    <width>465</width>
+    <height>70</height>
+    <suffix>03j3</suffix>
+    <type>1</type>
+  </section> 
+  <section>
+    <x>1849</x>
+    <y>843</y>
+    <width>373</width>
+    <height>73</height>
+    <suffix>03k1</suffix>
+    <type>1</type>
+  </section> 
+  <section>
+    <x>1848</x>
+    <y>932</y>
+    <width>373</width>
+    <height>73</height>
+    <suffix>03k2</suffix>
+    <type>1</type>
+  </section> 
+  <section>
+    <x>1848</x>
+    <y>1025</y>
+    <width>373</width>
+    <height>73</height>
+    <suffix>03k3</suffix>
+    <type>1</type>
+  </section> 
+  
+  <output>
+    <line>01#02#03a#03b#03c#03d#03e#03g1#03h1#03i1#03j2#03k1</line>
+  </output>
+  <output>
+    <line>01#02#03a#03b#03c#03d#03e#03g2#03h2#03i2#03j2#03k2</line>
+  </output>
+  <output>
+    <line>01#02#03a#03b#03c#03d#03e#03g3#03h3#03i3#03j3#03k3</line>
+  </output>
+  
+</template>
